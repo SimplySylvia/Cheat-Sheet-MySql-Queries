@@ -118,7 +118,7 @@ mysql>
 mysql -u root -p name_of_database -t < name_of_file.sql
 ```
 
-## Commands ran in mysql prompt
+## Commands ran in mysql interactive prompt
 
 ### To exit mysql:
 
@@ -162,7 +162,7 @@ DESCRIBE table_name;
 
 ### To drop a table:
 
-```bash
+```
 DROP TABLE name;
 ```
 
