@@ -3,7 +3,7 @@ SELECT *
   INNER JOIN bands 
   ON (songs.band_id = bands.band_id);
 
---  If you get questions about sql in an interview it will probably be something like the following
+
 SELECT 
   songs.title,
   bands.name AS artist, 

@@ -22,8 +22,7 @@ SELECT band_id,genre
 SELECT genre AS style 
   FROM bands;
 
--- sql (Postgres) does not like a column to be called name 
--- I guess in 13.0 no longer an issue
+-- sql does not like a column to be called name 
 
 SELECT name AS "Artist"
   FROM bands;
